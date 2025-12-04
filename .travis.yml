@@ -1,7 +1,3 @@
-dist: trusty
-
-sudo: required
-
 language: java
 
 services:
@@ -20,6 +16,18 @@ env:
     - TEST_SET="-Ptravis_e2e_skip"
     - TEST_SET="-Ptravis_e2e"
     - TEST_SET="glassfish-copyright:check"
+
+before_install:
+  - |
+    if [ "$TRAVIS_JDK_VERSION" == "openjdk8" ]; then
+      export JAVA_HOME=$(jdk_switcher home openjdk8)
+    elif [ "$TRAVIS_JDK_VERSION" == "openjdk11" ]; then
+      export JAVA_HOME=$(jdk_switcher home openjdk11)
+    elif [ "$TRAVIS_JDK_VERSION" == "openjdk16" ]; then
+      export JAVA_HOME=$(jdk_switcher home openjdk16)
+    fi
+  - echo "JAVA_HOME=$JAVA_HOME"
+  - java -version
 
 install: true
 
