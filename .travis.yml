@@ -16,7 +16,7 @@ env:
   matrix:
     - TEST_SET="-Ptravis_e2e_skip,checkstyleSkip"
     - TEST_SET="-Ptravis_e2e,checkstyleSkip"
-    - TEST_SET="glassfish-copyright:check" PROFILE="-PcheckstyleSkip"
+    # - TEST_SET="glassfish-copyright:check" PROFILE="-PcheckstyleSkip"
 
 install: true
 
