@@ -19,9 +19,12 @@ env:
     - TEST_SET="glassfish-copyright:check"
 
 before_install:
-  - export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+  - jdk_switcher use $TRAVIS_JDK_VERSION
+  - export JAVA_HOME=$(jdk_switcher home $TRAVIS_JDK_VERSION)
   - echo "JAVA_HOME=$JAVA_HOME"
   - java -version
+  - mvn -version
+
 
 install: true
 
