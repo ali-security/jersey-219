@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <groupId>org.glassfish.jersey.core</groupId>
     <artifactId>jersey-client</artifactId>
     <packaging>jar</packaging>
@@ -110,7 +111,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <dependency>
@@ -147,7 +148,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
