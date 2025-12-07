@@ -6,9 +6,9 @@ services:
   - docker
 
 jdk:
-  - openjdk8
+  # - openjdk8
   - openjdk11
-  - openjdk16
+  # - openjdk16
 
 cache:
   directories:
