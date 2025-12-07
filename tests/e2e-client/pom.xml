@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>e2e-client</artifactId>
     <packaging>jar</packaging>
     <name>jersey-tests-e2e-client</name>
@@ -52,12 +51,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>org.glassfish.jersey.core</groupId>
-            <artifactId>jersey-client</artifactId>
-            <version>2.36+sp1</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.test-framework.providers</groupId>
             <artifactId>jersey-test-framework-provider-bundle</artifactId>
@@ -92,7 +85,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-jackson1</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -163,25 +156,25 @@
         <dependency>
             <groupId>org.glassfish.jersey.security</groupId>
             <artifactId>oauth1-signature</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.security</groupId>
             <artifactId>oauth1-client</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.security</groupId>
             <artifactId>oauth1-server</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.security</groupId>
             <artifactId>oauth2-client</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
 
