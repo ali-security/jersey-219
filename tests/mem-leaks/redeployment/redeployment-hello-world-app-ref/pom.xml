@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>redeployment-hello-world-app-ref</artifactId>
     <name>jersey-tests-memleak-redeployment-hello-world-app-ref</name>
 
