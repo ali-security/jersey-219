@@ -18,6 +18,7 @@ package org.glassfish.jersey.client;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
+import java.net.Proxy;
 import java.net.URL;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -267,6 +268,23 @@ public class HttpUrlConnectorProvider implements ConnectorProvider {
          * @throws java.io.IOException in case the connection cannot be provided.
          */
         public HttpURLConnection getConnection(URL url) throws IOException;
+
+        /**
+         * Get a {@link java.net.HttpURLConnection} for a given URL.
+         * <p>
+         * Implementation of the method MUST be thread-safe and MUST ensure that
+         * a dedicated {@link java.net.HttpURLConnection} instance is returned for concurrent
+         * requests.
+         * </p>
+         *
+         * @param url the endpoint URL.
+         * @param proxy the proxy to be used.
+         * @return the {@link java.net.HttpURLConnection}.
+         * @throws java.io.IOException in case the connection cannot be provided.
+         */
+        default HttpURLConnection getConnection(URL url, Proxy proxy) throws IOException {
+            return (proxy == null) ? getConnection(url) : (HttpURLConnection) url.openConnection(proxy);
+        }
     }
 
     private static class DefaultConnectionFactory implements ConnectionFactory {
@@ -274,6 +292,11 @@ public class HttpUrlConnectorProvider implements ConnectorProvider {
         @Override
         public HttpURLConnection getConnection(final URL url) throws IOException {
             return (HttpURLConnection) url.openConnection();
+        }
+
+        @Override
+        public HttpURLConnection getConnection(URL url, Proxy proxy) throws IOException {
+            return (proxy == null) ? (HttpURLConnection) url.openConnection() : (HttpURLConnection) url.openConnection(proxy);
         }
     }
 
