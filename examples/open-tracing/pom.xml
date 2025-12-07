@@ -20,7 +20,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>open-tracing</artifactId>
     <packaging>jar</packaging>
     <name>jersey-examples-open-tracing</name>

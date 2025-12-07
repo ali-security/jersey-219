@@ -22,7 +22,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>servlet3-webapp</artifactId>
     <packaging>war</packaging>
     <name>jersey-examples-servlet3-webapp</name>

@@ -20,7 +20,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>exception-mapping</artifactId>
     <packaging>jar</packaging>
     <name>jersey-examples-exception-mapping</name>

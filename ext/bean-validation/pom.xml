@@ -27,7 +27,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>jersey-bean-validation</artifactId>
     <name>jersey-ext-bean-validation</name>
 

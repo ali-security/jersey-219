@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>servlet-2.5-mvc-3</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-integration-servlet-2.5-mvc-3</name>

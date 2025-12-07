@@ -22,7 +22,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>bookmark</artifactId>
     <name>jersey-examples-bookmark</name>
     <packaging>war</packaging>

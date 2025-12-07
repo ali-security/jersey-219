@@ -20,7 +20,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>server-sent-events-jaxrs</artifactId>
     <packaging>jar</packaging>
     <name>jersey-examples-server-sent-events-jaxrs</name>

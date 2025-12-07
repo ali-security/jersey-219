@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>servlet-request-wrappper-binding-2</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-integration-servlet-request-wrapper-binding-2</name>

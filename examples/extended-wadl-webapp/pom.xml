@@ -22,7 +22,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>extended-wadl-webapp</artifactId>
     <name>jersey-examples-extended-wadl-webapp</name>
     <packaging>war</packaging>

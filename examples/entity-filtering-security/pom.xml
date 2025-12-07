@@ -21,7 +21,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>entity-filtering-security</artifactId>
     <name>jersey-examples-entity-filtering-security</name>
 

@@ -25,7 +25,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>cdi-log-check</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-cdi-log-check</name>

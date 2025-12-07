@@ -25,7 +25,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>jersey-2154</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-integration-jersey-2154</name>

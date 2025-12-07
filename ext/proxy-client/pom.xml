@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>jersey-proxy-client</artifactId>
     <name>jersey-ext-proxy-client</name>
     <description>

@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>shutdown-hook-leak</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-memleak-testcase-shutdown-hook-leak</name>

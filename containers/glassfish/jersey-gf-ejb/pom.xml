@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>jersey-gf-ejb</artifactId>
     <packaging>jar</packaging>
     <name>jersey-gf-ejb</name>

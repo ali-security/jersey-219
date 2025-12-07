@@ -25,7 +25,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>cdi-client-on-server</artifactId>
     <name>jersey-tests-cdi-client-on-server</name>
     <packaging>war</packaging>

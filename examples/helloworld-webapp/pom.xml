@@ -22,7 +22,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>helloworld-webapp</artifactId>
     <packaging>war</packaging>
     <name>jersey-examples-helloworld-webapp</name>

@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>jersey-container-grizzly2-http</artifactId>
     <packaging>jar</packaging>
     <name>jersey-container-grizzly2-http</name>

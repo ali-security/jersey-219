@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>jersey-apache5-connector</artifactId>
     <packaging>jar</packaging>
     <name>jersey-connectors-apache5</name>

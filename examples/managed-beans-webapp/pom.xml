@@ -22,7 +22,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>managed-beans-webapp</artifactId>
     <name>jersey-examples-managed-beans-webapp</name>
     <packaging>war</packaging>

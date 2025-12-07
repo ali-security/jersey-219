@@ -24,7 +24,6 @@
         <artifactId>project</artifactId>
         <version>2.36</version>
     </parent>
-    <version>2.36+sp1</version>
     <groupId>org.glassfish.jersey.tests.performance.tools</groupId>
     <artifactId>performance-test-tools</artifactId>
     <packaging>jar</packaging>

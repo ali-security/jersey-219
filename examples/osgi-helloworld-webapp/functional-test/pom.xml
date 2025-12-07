@@ -21,7 +21,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <groupId>org.glassfish.jersey.examples.osgi-helloworld-webapp</groupId>
     <artifactId>functional-test</artifactId>
     <packaging>pom</packaging>

@@ -27,7 +27,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>redeployment-no-jersey-app</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-memleak-redeployment-no-jersey-app</name>

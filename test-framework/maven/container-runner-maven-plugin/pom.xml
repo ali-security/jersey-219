@@ -26,7 +26,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>container-runner-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
     <name>jersey-test-framework-maven-container-runner-plugin</name>

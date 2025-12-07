@@ -27,7 +27,6 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>j-59-ejb-lib</artifactId>
     <packaging>jar</packaging>
     <name>jersey-tests-integration-j-59-ejb-lib</name>

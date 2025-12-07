@@ -25,7 +25,6 @@
         <version>2.36</version>
     </parent>
 
-    <version>2.36+sp1</version>
     <artifactId>j-376</artifactId>
     <packaging>jar</packaging>
     <name>j-376-reproducer</name>
