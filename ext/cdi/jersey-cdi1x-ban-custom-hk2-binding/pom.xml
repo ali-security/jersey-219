@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-cdi1x-ban-custom-hk2-binding</artifactId>
     <packaging>jar</packaging>
     <name>jersey-ext-cdi1x-ban-custom-hk2-binding</name>

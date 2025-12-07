@@ -27,6 +27,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>j-441-war1</artifactId>
     <packaging>war</packaging>
 

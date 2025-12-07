@@ -25,6 +25,7 @@
         <version>2.36</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
+    <version>2.36+sp1</version>
     <artifactId>j-441-ear</artifactId>
     <packaging>ear</packaging>
 

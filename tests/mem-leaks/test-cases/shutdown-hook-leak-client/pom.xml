@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>shutdown-hook-leak-client</artifactId>
     <name>jersey-tests-memleak-testcase-shutdown-hook-leak-client</name>
 

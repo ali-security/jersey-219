@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>performance-test-benchmarks</artifactId>
     <packaging>jar</packaging>
     <name>performance-test-benchmarks</name>

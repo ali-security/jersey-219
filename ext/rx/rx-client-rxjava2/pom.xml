@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-rx-client-rxjava2</artifactId>
     <name>jersey-ext-rx-client-rxjava2</name>
 

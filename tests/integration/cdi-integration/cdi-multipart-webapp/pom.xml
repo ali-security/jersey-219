@@ -25,6 +25,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>cdi-multipart-webapp</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-cdi-multipart-webapp</name>

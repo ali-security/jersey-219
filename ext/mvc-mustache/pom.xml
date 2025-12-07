@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-mvc-mustache</artifactId>
     <name>jersey-ext-mvc-mustache</name>
 

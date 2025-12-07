@@ -27,6 +27,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-spring5</artifactId>
     <name>jersey-spring5</name>
 

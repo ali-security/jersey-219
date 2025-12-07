@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>custom-enforcer-rules</artifactId>
     <name>jersey-test-framework-maven-custom-enforcer-rules</name>
 

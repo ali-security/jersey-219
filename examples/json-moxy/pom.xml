@@ -20,6 +20,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>json-moxy</artifactId>
     <packaging>jar</packaging>
     <name>jersey-examples-json-moxy</name>

@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-media-json-binding</artifactId>
     <packaging>jar</packaging>
     <name>jersey-media-json-binding</name>

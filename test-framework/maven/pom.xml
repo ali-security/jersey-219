@@ -25,6 +25,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <groupId>org.glassfish.jersey.test-framework.maven</groupId>
     <artifactId>project</artifactId>
     <packaging>pom</packaging>

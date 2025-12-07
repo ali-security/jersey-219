@@ -28,6 +28,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>helloworld-spring-webapp</artifactId>
     <packaging>war</packaging>
     <name>jersey-examples-helloworld-spring-webapp</name>

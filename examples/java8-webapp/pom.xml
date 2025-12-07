@@ -21,6 +21,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>java8-webapp</artifactId>
     <packaging>war</packaging>
     <name>jersey-examples-java8-webapp</name>

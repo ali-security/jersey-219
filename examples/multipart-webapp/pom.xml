@@ -22,6 +22,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>multipart-webapp</artifactId>
     <name>jersey-examples-multipart-webapp</name>
     <packaging>war</packaging>

@@ -27,6 +27,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>redeployment-threadlocals-app</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-memleak-redeployment-threadlocals-app</name>

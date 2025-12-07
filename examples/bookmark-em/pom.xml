@@ -22,6 +22,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>bookmark-em</artifactId>
     <name>jersey-examples-bookmark-em</name>
     <packaging>war</packaging>

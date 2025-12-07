@@ -24,6 +24,7 @@
         <artifactId>project</artifactId>
         <version>2.36</version>
     </parent>
+    <version>2.36+sp1</version>
     <packaging>maven-archetype</packaging>
 
     <artifactId>jersey-heroku-webapp</artifactId>

@@ -22,6 +22,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>sse-item-store-jaxrs-webapp</artifactId>
     <packaging>war</packaging>
     <name>jersey-examples-sse-item-store-jaxrs-webapp</name>

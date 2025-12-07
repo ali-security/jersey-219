@@ -26,6 +26,7 @@
     </parent>
 
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-grizzly-runner</artifactId>
     <packaging>jar</packaging>
 

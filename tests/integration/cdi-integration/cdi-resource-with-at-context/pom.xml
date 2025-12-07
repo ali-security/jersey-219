@@ -24,6 +24,7 @@
         <artifactId>cdi-integration-project</artifactId>
         <version>2.36</version>
     </parent>
+    <version>2.36+sp1</version>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cdi-resource-with-at-context</artifactId>

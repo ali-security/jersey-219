@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>memleak-test-common</artifactId>
     <name>jersey-test-framework-memleak-test-common</name>
 

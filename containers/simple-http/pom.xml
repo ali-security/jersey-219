@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>jersey-container-simple-http</artifactId>
     <packaging>jar</packaging>
     <name>jersey-container-simple-http</name>

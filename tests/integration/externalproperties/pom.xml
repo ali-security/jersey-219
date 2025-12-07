@@ -25,6 +25,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>externalproperties</artifactId>
     <packaging>jar</packaging>
     <name>jersey-tests-externalproperties</name>

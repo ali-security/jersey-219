@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>tracing-support</artifactId>
     <packaging>war</packaging>
     <name>jersey-tests-integration-tracing-support</name>

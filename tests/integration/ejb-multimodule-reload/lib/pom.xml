@@ -27,6 +27,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>ejb-multimodule-reload-lib</artifactId>
     <packaging>jar</packaging>
     <name>jersey-tests-integration-ejb-multimodule-reload-lib</name>

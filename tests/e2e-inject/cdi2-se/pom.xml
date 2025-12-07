@@ -26,6 +26,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>e2e-inject-cdi2-se</artifactId>
     <packaging>jar</packaging>
     <name>jersey-tests-e2e-inject-cdi-se</name>

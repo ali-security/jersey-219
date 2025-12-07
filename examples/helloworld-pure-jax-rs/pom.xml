@@ -20,6 +20,7 @@
         <version>2.36</version>
     </parent>
 
+    <version>2.36+sp1</version>
     <artifactId>helloworld-pure-jax-rs</artifactId>
     <packaging>jar</packaging>
     <name>jersey-examples-helloworld-pure-jax-rs</name>
