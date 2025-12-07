@@ -317,6 +317,12 @@ public class HttpUrlConnector implements Connector {
     private ClientResponse _apply(final ClientRequest request) throws IOException {
         final HttpURLConnection uc;
 
+        // Initialize the default SSL socket factory before creating connections to avoid race condition.
+        // See https://github.com/jersey/jersey/issues/3293
+        if (!DEFAULT_SSL_SOCKET_FACTORY.isInitialized() && "HTTPS".equalsIgnoreCase(request.getUri().getScheme())) {
+            DEFAULT_SSL_SOCKET_FACTORY.get();
+        }
+
         uc = this.connectionFactory.getConnection(request.getUri().toURL());
         uc.setDoInput(true);
 
